@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <title>Javier Martín Escobar | Ingeniero de Software</title>
+
+    <meta name="keywords" content="Javier, Software" />
+
+    <meta name="description" content="Javier Martín Escobar | Ingeniero de Software" />
+
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <meta name="theme-color" content="#36d1dc" />
+
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+    
+  </head>
+  <body>
+    <!-- Title Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hola!👋 Soy <span class="text-color-main name">Javier Martín Escobar</span>
+          <br />
+          Ingeniero de Software.
+        </h1>
+        <div class="container">
+          <div class="main-navigation">
+            <p class="hero-cta">
+              <a class="cta-btn cta-btn--hero" href="#about">Sobre mi</a>
+            </p>
+            <p class="hero-cta">
+              <a class="cta-btn cta-btn--hero" href="#projects">Proyectos</a>
+            </p>
+            <p class="hero-cta">
+              <a class="cta-btn cta-btn--hero" href="#contact">Contáctame</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Sobre mi</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/FotoCV.png"
+              alt="Profile Image"
+              width="450"
+              height="450"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Me considero una persona con buenas aptitudes de comunicación y relación en ambientes profesionales, así como
+              con capacidad de liderazgo en actividades grupales y sentido de la iniciativa y poseo una buena capacidad de
+              priorización y solución de problemas. Me dedico a la programación como hobby desde los 14 años y soy un
+              apasionado del mundo de las tecnologías.
+            </p>
+            <p class="about-wrapper__info-text">
+              Actualmente tengo un mayor nivel de programación en lenguajes orientados a objetos como Java, Kotlin y C#. Pero
+              también tengo conocimientos de SQL, Python, C y C++. Gracias a mi capacidad de adaptación puedo aprender y usar 
+              a nivel profesional cualquier lenguaje de programación en menos de una semana.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="./assets/CV_Esp.pdf" class="cta-btn cta-btn--resume">Ver mi CV</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <!-- https://youtu.be/l2k-Lww1ank-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Proyectos</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Channel UPM</h3>
+              <p class="project-wrapper__text-info">
+                Proyecto usado como trabajo de fin de grado de ingeniería de software.
+                Se trata de una aplicación android desarrollada en Kotlin que implementa un sistema de mensajes privados y grupales,
+                y un sistema de noticias, con posibilidad de elección de categorías de interés para visualizar tipos de noticias concretos.
+                La aplicación se conecta a una base de datos alojada en AWS mediante endpoints de AWSLambda desarrollados con Python.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/MartinJavi01/ChannelUPM" target="_blank" class="cta-btn text-color-main"
+                  >Código del proyecto</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/LogoCUPM.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Juego en Godot</h3>
+              <p class="project-wrapper__text-info">
+                Primera prueba de crear una demo de videojuego usando el motor de videojuegos Godot con su lenguaje de programación
+                gdscript. Se trata de un videojuego plataformas en 2D que tiene implementaciones base de cualquier juego de este estilo:
+                menu de inicio con opciones de audio y guardado y carga de archivos de guardado, movimiento de personaje, sistema de combate,
+                cambio de escenas y diálogos con NPC entre otros.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/MartinJavi01/Godot_first_contact" target="_blank" class="cta-btn text-color-main"
+                  >Código del proyecto</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/CapturaGodot.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-wrapper">
+          <a href="mailto:javiermartinescobar.contact@gmail.com" class="cta-btn cta-btn--resume">javiermartinescobar.contact@gmail.com</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/javier-mart%C3%ADn-escobar-139369189/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/MartinJavi01"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+  </body>
+</html>
