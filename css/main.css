@@ -25,7 +25,7 @@ a:hover{transition:all .3s ease-in-out}
 .cta-btn--hero:hover{-webkit-text-fill-color:#fff;text-decoration:none}
 @media(max-width: 37.5em){.cta-btn--hero:hover{-webkit-text-fill-color:#5b86e5}}
 .cta-btn--hero:hover::after{transform:translate(-9%, -25%) rotate(45deg)}
-.cta-btn--resume{border-radius:0;color:#fff;border:2px solid #fff; width: 90%;}
+.cta-btn--resume{border-radius:0;color:#fff;border:2px solid #fff;}
 .cta-btn--resume::after{background:#fff}
 .cta-btn--resume:hover{color:#5b86e5;text-decoration:none;box-shadow:none}
 @media(max-width: 37.5em){.cta-btn--resume:hover{color:#fff}}
